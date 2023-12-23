@@ -1,0 +1,20 @@
+/* styles/main.css */
+
+body {
+    background: linear-gradient(45deg, #4ecdc4, #556fb5, #984599, #1d84b7);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 10s ease infinite;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
